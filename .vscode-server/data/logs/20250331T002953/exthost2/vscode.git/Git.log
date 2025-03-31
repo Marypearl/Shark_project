@@ -1,0 +1,129 @@
+2025-03-31 00:31:01.894 [info] [main] Log level: Info
+2025-03-31 00:31:01.894 [info] [main] Validating found git in: "git"
+2025-03-31 00:31:01.894 [info] [main] Using git "2.34.1" from "git"
+2025-03-31 00:31:01.894 [info] [Model][doInitialScan] Initial repository scan started
+2025-03-31 00:31:01.894 [info] > git rev-parse --show-toplevel [10ms]
+2025-03-31 00:31:01.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 00:31:01.894 [info] > git rev-parse --show-toplevel [20ms]
+2025-03-31 00:31:01.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 00:31:01.894 [info] > git rev-parse --show-toplevel [5ms]
+2025-03-31 00:31:01.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 00:31:01.894 [info] > git rev-parse --show-toplevel [3ms]
+2025-03-31 00:31:01.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 00:31:01.894 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-03-31 00:31:01.894 [info] > git rev-parse --show-toplevel [0ms]
+2025-03-31 00:31:01.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 00:31:05.462 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-31 00:31:05.462 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-03-31 01:39:32.998 [info] > git rev-parse --show-toplevel [1ms]
+2025-03-31 01:39:33.003 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2025-03-31 01:39:33.017 [info] [Model][openRepository] Opened repository: /home/ubuntu/shark/node_project
+2025-03-31 01:39:33.027 [info] > git config --get commit.template [4ms]
+2025-03-31 01:39:33.027 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 01:39:33.031 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:39:33.031 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-31 01:39:33.038 [info] > git status -z -uall [4ms]
+2025-03-31 01:39:33.038 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-31 01:39:33.066 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-03-31 01:39:33.071 [info] > git config --get commit.template [6ms]
+2025-03-31 01:39:33.071 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-03-31 01:39:33.071 [warning] [Git][config] git config failed: Failed to execute git
+2025-03-31 01:39:33.078 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2025-03-31 01:39:33.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-03-31 01:39:33.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:39:33.083 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2025-03-31 01:39:33.084 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-03-31 01:39:33.090 [info] > git status -z -uall [3ms]
+2025-03-31 01:39:33.091 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2025-03-31 01:39:33.094 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2025-03-31 01:39:33.099 [info] > git config --add --local branch.main.vscode-merge-base origin/main [6ms]
+2025-03-31 01:39:33.102 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2025-03-31 01:39:33.105 [info] > git config --get commit.template [3ms]
+2025-03-31 01:39:33.108 [info] > git config --get --local branch.main.vscode-merge-base [3ms]
+2025-03-31 01:39:33.113 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-03-31 01:39:33.115 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:39:33.115 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-03-31 01:39:33.119 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2025-03-31 01:39:33.124 [info] > git status -z -uall [3ms]
+2025-03-31 01:39:33.125 [info] > git merge-base refs/heads/main refs/remotes/origin/main [7ms]
+2025-03-31 01:39:33.129 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2025-03-31 01:39:33.136 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-03-31 01:39:33.139 [info] > git diff --name-status -z --diff-filter=ADMR 4fcefdc17e971ca03b4d1346d01088313f5dc264...refs/remotes/origin/main [9ms]
+2025-03-31 01:39:33.139 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2025-03-31 01:39:33.143 [info] > git diff --name-status -z --diff-filter=ADMR 4fcefdc17e971ca03b4d1346d01088313f5dc264...refs/remotes/origin/main [5ms]
+2025-03-31 01:39:33.143 [info] > git diff --name-status -z --diff-filter=ADMR 4fcefdc17e971ca03b4d1346d01088313f5dc264...refs/remotes/origin/main [2ms]
+2025-03-31 01:39:34.337 [info] > git config --get commit.template [3ms]
+2025-03-31 01:39:34.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-31 01:39:34.340 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:39:34.341 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-31 01:39:34.346 [info] > git status -z -uall [3ms]
+2025-03-31 01:39:34.348 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-31 01:41:21.519 [info] > git config --get commit.template [1ms]
+2025-03-31 01:41:21.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 01:41:21.526 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:41:21.528 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-03-31 01:41:21.533 [info] > git status -z -uall [3ms]
+2025-03-31 01:41:21.534 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-31 01:41:34.501 [info] > git check-ignore -v -z --stdin [2ms]
+2025-03-31 01:41:38.593 [info] > git show --textconv :.env [3ms]
+2025-03-31 01:41:38.595 [info] > git ls-files --stage -- .env [3ms]
+2025-03-31 01:41:38.599 [info] > git hash-object -t tree /dev/null [0ms]
+2025-03-31 01:41:38.599 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/shark/node_project/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fshark%2Fnode_project%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-03-31 01:41:38.602 [info] > git hash-object -t tree /dev/null [6ms]
+2025-03-31 01:41:38.602 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/shark/node_project/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fshark%2Fnode_project%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-03-31 01:44:31.191 [info] > git config --get commit.template [2ms]
+2025-03-31 01:44:31.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 01:44:31.195 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:44:31.196 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-31 01:44:31.201 [info] > git status -z -uall [3ms]
+2025-03-31 01:44:31.202 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-31 01:44:31.541 [info] > git check-ignore -v -z --stdin [3ms]
+2025-03-31 01:44:36.374 [info] > git check-ignore -v -z --stdin [0ms]
+2025-03-31 01:45:16.322 [info] > git show --textconv :.dockerignore [3ms]
+2025-03-31 01:45:16.323 [info] > git ls-files --stage -- .dockerignore [2ms]
+2025-03-31 01:45:16.329 [info] > git cat-file -s 56af235eba2a134d01b2d4c603a7a830f5ca2a71 [2ms]
+2025-03-31 01:45:28.084 [info] > git config --get commit.template [1ms]
+2025-03-31 01:45:28.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-03-31 01:45:28.090 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 01:45:28.092 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-03-31 01:45:28.097 [info] > git status -z -uall [2ms]
+2025-03-31 01:45:28.097 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2025-03-31 01:47:25.288 [info] > git show --textconv :.env [5ms]
+2025-03-31 01:47:25.289 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/ubuntu/shark/node_project/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fshark%2Fnode_project%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-03-31 01:47:25.289 [info] > git ls-files --stage -- .env [1ms]
+2025-03-31 01:47:25.289 [warning] [GitFileSystemProvider][stat] File not found - git:/home/ubuntu/shark/node_project/.env.git?%7B%22path%22%3A%22%2Fhome%2Fubuntu%2Fshark%2Fnode_project%2F.env%22%2C%22ref%22%3A%22%22%7D
+2025-03-31 02:07:05.370 [info] > git blame --root --incremental 4fcefdc17e971ca03b4d1346d01088313f5dc264 -- .env [1ms]
+2025-03-31 02:07:05.370 [info] fatal: no such path .env in 4fcefdc17e971ca03b4d1346d01088313f5dc264
+2025-03-31 02:07:07.650 [info] > git config --get commit.template [4ms]
+2025-03-31 02:07:07.651 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 02:07:07.653 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 02:07:07.654 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-31 02:07:07.659 [info] > git status -z -uall [2ms]
+2025-03-31 02:07:07.659 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2025-03-31 02:10:15.682 [info] > git show --textconv :nodejs-service.yaml [3ms]
+2025-03-31 02:10:15.682 [info] > git ls-files --stage -- nodejs-service.yaml [1ms]
+2025-03-31 02:10:15.685 [info] > git cat-file -s c5e3ca30042dbd7bafc838529c173baae7f4eb4c [1ms]
+2025-03-31 02:10:38.622 [info] > git blame --root --incremental 4fcefdc17e971ca03b4d1346d01088313f5dc264 -- nodejs-service.yaml [1ms]
+2025-03-31 02:11:13.940 [info] > git config --get commit.template [0ms]
+2025-03-31 02:11:13.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-03-31 02:11:13.947 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 02:11:13.947 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-03-31 02:11:13.953 [info] > git status -z -uall [3ms]
+2025-03-31 02:11:13.955 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2025-03-31 02:12:33.685 [info] > git show --textconv :k8s_deploy.yaml [2ms]
+2025-03-31 02:12:33.686 [info] > git ls-files --stage -- k8s_deploy.yaml [2ms]
+2025-03-31 02:12:33.691 [info] > git cat-file -s 8542a59558034c0f230799a2b33fc23ca2d41ee9 [1ms]
+2025-03-31 02:15:29.700 [info] > git blame --root --incremental 4fcefdc17e971ca03b4d1346d01088313f5dc264 -- k8s_deploy.yaml [1ms]
+2025-03-31 02:15:40.137 [info] > git config --get commit.template [4ms]
+2025-03-31 02:15:40.138 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 02:15:40.140 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 02:15:40.141 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-03-31 02:15:40.147 [info] > git status -z -uall [3ms]
+2025-03-31 02:15:40.148 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2025-03-31 02:42:45.143 [info] > git check-ignore -v -z --stdin [1ms]
+2025-03-31 02:44:24.564 [info] > git config --get commit.template [4ms]
+2025-03-31 02:44:24.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-03-31 02:44:24.568 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/ubuntu/shark/node_project/.git/refs/remotes/origin/main'
+2025-03-31 02:44:24.568 [info] > git rev-parse refs/remotes/origin/main [0ms]
+2025-03-31 02:44:24.576 [info] > git status -z -uall [4ms]
+2025-03-31 02:44:24.576 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
